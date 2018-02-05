@@ -1,0 +1,128 @@
+/* color pallette
+  light blue -- #90bfcc
+  dark blue -- #46485d
+  red -- #ea5835
+  cream -- #f2edc8
+*/
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #46485d;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  height: 4rem;
+  width: 100%;
+  margin: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  display: inline-flex;
+}
+
+.logo-icon img {
+  height: 3rem;
+}
+
+.logo-text {
+  display: inline-flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-left: .5rem;
+}
+
+.logo-text span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.main-nav {
+  display: flex;
+}
+
+nav span {
+  display: inline-flex;
+  margin-left: 1rem;
+}
+
+nav span a {
+  text-decoration: none;
+  color: #90bfcc;
+}
+
+nav span a:hover {
+  text-decoration: none;
+  color: #46485d;
+}
+
+.banner {
+  display: inline-flex;
+  align-items: center;
+  background-color: #90bfcc;
+  width: 100%;
+  margin: 0;
+}
+
+.left-image {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.left-image img {
+  width: 100%;
+}
+
+.right-intro {
+  width: 40%;
+  padding-left: 1.5rem;
+}
+.button-large {
+  background-color: #ea5835;
+  padding: .5rem;
+  width: 100px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button-large a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button-large a:hover {
+  color: #ea5835;
+  text-decoration: none;
+}
+
+.button-large:hover {
+  background-color: #ffffff;
+}
