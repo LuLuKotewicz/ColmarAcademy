@@ -19,10 +19,24 @@ h1 {
 }
 
 h2 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+  margin: 2rem 0 1.5rem 0;
+  color: #46485d;
+}
+
+h3 {
   font-size: 1rem;
   line-height: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #46485d;
+}
+
+p {
+  font-size: .75rem;
+  line-height: 1.5rem;
+  font-weight: 400;
   color: #46485d;
 }
 
@@ -32,7 +46,6 @@ header {
   justify-content: space-between;
   padding: 0 1.5rem;
   height: 4rem;
-  width: 100%;
   margin: 0;
   z-index: 100;
 }
@@ -50,7 +63,7 @@ header {
   height: 3rem;
 }
 
-.logo-text {
+.logo-text p {
   display: inline-flex;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -60,6 +73,7 @@ header {
 
 .logo-text span {
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -103,6 +117,7 @@ nav span a:hover {
   width: 40%;
   padding-left: 1.5rem;
 }
+
 .button-large {
   background-color: #ea5835;
   padding: .5rem;
@@ -125,4 +140,54 @@ nav span a:hover {
 
 .button-large:hover {
   background-color: #ffffff;
+}
+
+.information {
+  display: inline-flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0;
+}
+
+.author {
+  font-size: .75rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: #46485d;
+  margin-top: 1rem;
+}
+
+.right-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem 0 0 1.5rem;
+}
+
+.right-info {
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.right-photo {
+  display: inline-flex;
+  padding: 0 1rem 0 0;
+}
+
+.right-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-text {
+  display: inline-flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+a {
+  text-decoration: none;
+  color: #ea5835;
 }
